@@ -2,7 +2,7 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 12,
-    "sourceType": "module",
+    "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
   // HERE
@@ -14,8 +14,7 @@
     "no-undefined":"error",
     "no-unused-expressions":"error",
     "no-unreachable":"error",
-    
-  },
+    },
 
   "env": {
     "browser": true,

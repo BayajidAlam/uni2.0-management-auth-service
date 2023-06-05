@@ -1,6 +1,7 @@
-import express, { Application, Request, Response } from 'express'
+import express, { Application } from 'express'
 import cors from 'cors'
 import usersRouter from './app/modules/users/users.route'
+import globalErrorHandler from './app/middlewares/globalErrorHandler'
 
 const app: Application = express()
 
@@ -14,8 +15,12 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users', usersRouter)
 
 // testing
-app.get('/okk', async (req: Request, res: Response) => {
-  res.send('Working successfully')
-})
+// app.get('/okk', (req: Request, res: Response, next:NextFunction) => {
+//   // throw new ApiError(400,'ore baba error','')
+//   next('Ore baba error')
+// })
+
+// global error handler
+app.use(globalErrorHandler)
 
 export default app

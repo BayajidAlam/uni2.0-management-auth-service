@@ -5,11 +5,16 @@
   "main": "src/server.ts",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "lint:fix": "eslint --fex",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bayajid Alam Joyel",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.42.0",
     "mongoose": "^7.2.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.3"

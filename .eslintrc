@@ -6,14 +6,18 @@
   },
   "plugins": ["@typescript-eslint"],
   // HERE
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
 
   "rules": {
     // "no-unused-vars": "error",
-    "no-console":"error",
-    "no-undefined":"error",
-    "no-unused-expressions":"error",
-    "no-unreachable":"error",
+    "no-console": "error",
+    // "no-undefined": "error",
+    "no-unused-expressions": "error",
+    "no-unreachable": "error"
     // "consistent-type-definitions": ["error", "type"]
   },
 

@@ -1,7 +1,7 @@
 import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
 const app: Application = express()
-sdddss = e
+port = 3000
 app.use(cors())
 
 // parser

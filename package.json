@@ -13,7 +13,7 @@
   },
   "author": "Bayajid Alam Joyel",
   "license": "ISC",
-  "lint-staged":{
+  "lint-staged": {
     "src/**/*.ts": "yarn lint-prettier"
   },
   "devDependencies": {

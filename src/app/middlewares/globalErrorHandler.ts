@@ -3,9 +3,16 @@ import { ErrorRequestHandler } from 'express'
 import config from '../../config'
 import handleValidationError from '../../errors/handleValidationError'
 import ApiError from '../../errors/ApiError'
+import { errorLogger } from '../../shared/logger'
 
 // global error handler
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  // eslint-disable-next-line no-unused-expressions
+  config.env == 'development'
+    ? // eslint-disable-next-line no-console
+      console.log(`Global error handler`, error)
+    : errorLogger.error(`Global error handler`, error)
+
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessage: IGenericErrorMessage[] = []

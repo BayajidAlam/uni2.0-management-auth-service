@@ -15,9 +15,9 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users', UserRoutes)
 
 // testing
-app.get('/okk', async (req: Request, res: Response, next: NextFunction) => {
-  Promise.reject(new Error('Unhandled promise rejection'))
-})
+// app.get('/okk', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing error logger')
+// })
 
 // global error handler
 app.use(globalErrorHandler)

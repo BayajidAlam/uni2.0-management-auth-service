@@ -6,34 +6,9 @@
     "auditLog": "E:\\uni2.0\\logs\\winston\\successes\\.d8fa3c86ffb4e1eaa47dc385023e7faecf937232-audit.json",
     "files": [
         {
-            "date": 1685981285080,
-            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-05-22-success.log",
-            "hash": "9c395a9bc6c42a5f9d6ca7f6886e968540227309b4a0f3fcf3daef5e37bffdb1"
-        },
-        {
-            "date": 1685989230678,
-            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-06-00-success.log",
-            "hash": "230a43b7bda44783211ab501a4e7d54b45f31bb3eaaac3cf67b02af3421d7276"
-        },
-        {
-            "date": 1685991608154,
-            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-06-01-success.log",
-            "hash": "ece94bfb3beed2331e5e5a1bdc9073dc900ace97bb788f7a4ab8e6a9e9ca1163"
-        },
-        {
-            "date": 1686031789800,
-            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-06-12-success.log",
-            "hash": "428ef2e5fa1d2d44042a15d607664fcc550eb82a7f5a5a746aec66c74c8eabf1"
-        },
-        {
-            "date": 1686076133842,
-            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-07-00-success.log",
-            "hash": "c3e4eb5cc2c796d9f510dccaaf8519477b2c4ea77d8aa34e876c8db9313f750c"
-        },
-        {
-            "date": 1686078001089,
-            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-07-01-success.log",
-            "hash": "71de1b89e302f4496e55737e97b3a711035eda39636ab4f702547d362afb6be8"
+            "date": 1686114771210,
+            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-07-11-success.log",
+            "hash": "2a6f4af2bce8dca7d1ff8069fdc3810d284dcf8c5b23cfbbd3fe69309b82a18c"
         }
     ],
     "hashType": "sha256"

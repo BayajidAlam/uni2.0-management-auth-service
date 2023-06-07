@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "E:\\uni2.0\\logs\\winston\\errors\\.03d31036356a45fd74ebb417401934e1da66599f-audit.json",
+  "files": [
+    {
+      "date": 1686114771212,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-11-error.log",
+      "hash": "3e5f7fe78cd1d87ab544ae8509edf5e2a210cfc7df2f46ebee3cc17453cbae04"
     },
-    "auditLog": "E:\\uni2.0\\logs\\winston\\errors\\.03d31036356a45fd74ebb417401934e1da66599f-audit.json",
-    "files": [
-        {
-            "date": 1686114771212,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-11-error.log",
-            "hash": "3e5f7fe78cd1d87ab544ae8509edf5e2a210cfc7df2f46ebee3cc17453cbae04"
-        },
-        {
-            "date": 1686139013712,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-17-error.log",
-            "hash": "82dd6ff8032942096d6d7deb904d0b687093c41ec65d73b4c8734ba65643353a"
-        },
-        {
-            "date": 1686139215111,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-18-error.log",
-            "hash": "64c50ce56590b109f7e190719d3213cdec9862bbf6dc19847ea8b654a3e4a281"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686139013712,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-17-error.log",
+      "hash": "82dd6ff8032942096d6d7deb904d0b687093c41ec65d73b4c8734ba65643353a"
+    },
+    {
+      "date": 1686139215111,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-18-error.log",
+      "hash": "64c50ce56590b109f7e190719d3213cdec9862bbf6dc19847ea8b654a3e4a281"
+    }
+  ],
+  "hashType": "sha256"
 }

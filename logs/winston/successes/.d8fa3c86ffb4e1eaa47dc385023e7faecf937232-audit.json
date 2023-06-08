@@ -34,6 +34,16 @@
             "date": 1686199061346,
             "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-08-10-success.log",
             "hash": "b79945f53bc902c861e3a053cefeca8a306f4dd1154461ec6f339281f6828762"
+        },
+        {
+            "date": 1686202790746,
+            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-08-11-success.log",
+            "hash": "454ace1a8f17fb5b26e9859403a8964a374e3f7f27d3847ecc64cf2e2235b6f4"
+        },
+        {
+            "date": 1686204208716,
+            "name": "E:\\uni2.0\\logs\\winston\\successes\\phu-2023-06-08-12-success.log",
+            "hash": "aa593b7d6253b0a97c9321a23b448cd7d52e5f8124a8cd749a34d9992e757caf"
         }
     ],
     "hashType": "sha256"

@@ -8,6 +8,9 @@ import {
   academicSemesterMonths,
   academicSemesterTitles,
 } from './academicSemester.constant';
+import ApiError from '../../../errors/ApiError';
+import status from 'http-status';
+import { http } from 'winston';
 
 export const academicSemesterSchema = new Schema<IAcademicSemester>(
   {
@@ -41,6 +44,19 @@ export const academicSemesterSchema = new Schema<IAcademicSemester>(
   }
 );
 
+// create pre hook for not duplicating a semester
+academicSemesterSchema.pre('save', async function (next) {
+  const isExist = await AcademicSemester.findOne({
+    title: this.title,
+    year: this.year,
+  });
+  if (isExist) {
+    throw new ApiError(status.CONFLICT, 'Academic semester is already exist!');
+  }
+  next();
+});
+
+// create model
 export const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
   'AcademicSemester',
   academicSemesterSchema

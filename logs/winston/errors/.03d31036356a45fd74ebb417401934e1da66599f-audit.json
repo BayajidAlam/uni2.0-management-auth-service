@@ -54,6 +54,11 @@
             "date": 1686222000420,
             "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-17-error.log",
             "hash": "c35825d4cae04245e0997cc9eabbf9f18919658270a43f0728013a02f2f8754d"
+        },
+        {
+            "date": 1686317432306,
+            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-19-error.log",
+            "hash": "d84dec63ef857cd34c0abfab7363ed8f7480222fea2bb03375b78a27b7617c7e"
         }
     ],
     "hashType": "sha256"

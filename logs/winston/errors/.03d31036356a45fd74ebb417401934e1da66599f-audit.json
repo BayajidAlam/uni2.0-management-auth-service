@@ -1,75 +1,85 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "E:\\uni2.0\\logs\\winston\\errors\\.03d31036356a45fd74ebb417401934e1da66599f-audit.json",
+  "files": [
+    {
+      "date": 1686114771212,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-11-error.log",
+      "hash": "3e5f7fe78cd1d87ab544ae8509edf5e2a210cfc7df2f46ebee3cc17453cbae04"
     },
-    "auditLog": "E:\\uni2.0\\logs\\winston\\errors\\.03d31036356a45fd74ebb417401934e1da66599f-audit.json",
-    "files": [
-        {
-            "date": 1686114771212,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-11-error.log",
-            "hash": "3e5f7fe78cd1d87ab544ae8509edf5e2a210cfc7df2f46ebee3cc17453cbae04"
-        },
-        {
-            "date": 1686139013712,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-17-error.log",
-            "hash": "82dd6ff8032942096d6d7deb904d0b687093c41ec65d73b4c8734ba65643353a"
-        },
-        {
-            "date": 1686139215111,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-18-error.log",
-            "hash": "64c50ce56590b109f7e190719d3213cdec9862bbf6dc19847ea8b654a3e4a281"
-        },
-        {
-            "date": 1686156123226,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-22-error.log",
-            "hash": "5c9e3a1bb83dd39002ef659558f0cc1dcb91fbc20f8da0cda745387e32a1f894"
-        },
-        {
-            "date": 1686162637576,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-00-error.log",
-            "hash": "2d5dfcbb1ff50e2312e005d7ad24d063467e2f54893592c730bc4c8039158485"
-        },
-        {
-            "date": 1686199061349,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-10-error.log",
-            "hash": "c033dfa4b7d8c9cde7f907df777775d6c51212e9b17c382f0ba616ca3739d962"
-        },
-        {
-            "date": 1686202790748,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-11-error.log",
-            "hash": "61bcd26c9fbddbfb5da060c8cd7a1b3f078a2cded93e9753b7cdf46c7676a756"
-        },
-        {
-            "date": 1686204208719,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-12-error.log",
-            "hash": "e548db019fbb27446fcfb6793e3a560abb6e493c9ea7a2a14622a3cdef7aefff"
-        },
-        {
-            "date": 1686221672594,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-16-error.log",
-            "hash": "019716f0edde839290986329e18cbb0d21d13f20a7f2d4d14470a292e4e56fc8"
-        },
-        {
-            "date": 1686222000420,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-17-error.log",
-            "hash": "c35825d4cae04245e0997cc9eabbf9f18919658270a43f0728013a02f2f8754d"
-        },
-        {
-            "date": 1686317432306,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-19-error.log",
-            "hash": "d84dec63ef857cd34c0abfab7363ed8f7480222fea2bb03375b78a27b7617c7e"
-        },
-        {
-            "date": 1686320509408,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-20-error.log",
-            "hash": "0b756b4176b780c416a693e7cfad5eedf0073f98d386f608c54ca98af0ceb02e"
-        },
-        {
-            "date": 1686322973759,
-            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-21-error.log",
-            "hash": "89af3ccd6a8f74943f083c1b16c26614977fc02a8845ffde5b919f9d04fdac91"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686139013712,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-17-error.log",
+      "hash": "82dd6ff8032942096d6d7deb904d0b687093c41ec65d73b4c8734ba65643353a"
+    },
+    {
+      "date": 1686139215111,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-18-error.log",
+      "hash": "64c50ce56590b109f7e190719d3213cdec9862bbf6dc19847ea8b654a3e4a281"
+    },
+    {
+      "date": 1686156123226,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-07-22-error.log",
+      "hash": "5c9e3a1bb83dd39002ef659558f0cc1dcb91fbc20f8da0cda745387e32a1f894"
+    },
+    {
+      "date": 1686162637576,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-00-error.log",
+      "hash": "2d5dfcbb1ff50e2312e005d7ad24d063467e2f54893592c730bc4c8039158485"
+    },
+    {
+      "date": 1686199061349,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-10-error.log",
+      "hash": "c033dfa4b7d8c9cde7f907df777775d6c51212e9b17c382f0ba616ca3739d962"
+    },
+    {
+      "date": 1686202790748,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-11-error.log",
+      "hash": "61bcd26c9fbddbfb5da060c8cd7a1b3f078a2cded93e9753b7cdf46c7676a756"
+    },
+    {
+      "date": 1686204208719,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-12-error.log",
+      "hash": "e548db019fbb27446fcfb6793e3a560abb6e493c9ea7a2a14622a3cdef7aefff"
+    },
+    {
+      "date": 1686221672594,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-16-error.log",
+      "hash": "019716f0edde839290986329e18cbb0d21d13f20a7f2d4d14470a292e4e56fc8"
+    },
+    {
+      "date": 1686222000420,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-08-17-error.log",
+      "hash": "c35825d4cae04245e0997cc9eabbf9f18919658270a43f0728013a02f2f8754d"
+    },
+    {
+      "date": 1686317432306,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-19-error.log",
+      "hash": "d84dec63ef857cd34c0abfab7363ed8f7480222fea2bb03375b78a27b7617c7e"
+    },
+    {
+      "date": 1686320509408,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-20-error.log",
+      "hash": "0b756b4176b780c416a693e7cfad5eedf0073f98d386f608c54ca98af0ceb02e"
+    },
+    {
+      "date": 1686322973759,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-21-error.log",
+      "hash": "89af3ccd6a8f74943f083c1b16c26614977fc02a8845ffde5b919f9d04fdac91"
+    },
+    {
+      "date": 1686326712064,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-09-22-error.log",
+      "hash": "0790d675c7184cbf5c8a677e9fb15f4305324f421bf0d3aaaa2fb8ffec38dd2b"
+    },
+    {
+      "date": 1686391482930,
+      "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-10-16-error.log",
+      "hash": "43ff61e9c7235bedb6b4448759fd443948f57f00f0b5815e038692354bb7f0c3"
+    }
+  ],
+  "hashType": "sha256"
 }

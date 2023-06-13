@@ -17,9 +17,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1', routes);
 
 // testing
-app.get('/okk', async (req: Request, res: Response, next: NextFunction) => {
-  throw new Error('Testing error logger');
-});
+// app.get('/okk', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing error logger');
+// });
 
 // global error handler
 app.use(globalErrorHandler);

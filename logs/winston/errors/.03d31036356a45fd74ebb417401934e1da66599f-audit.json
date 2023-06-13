@@ -129,6 +129,16 @@
             "date": 1686586425035,
             "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-12-22-error.log",
             "hash": "55a744ffc93ebd9302f2196843a6771ebbd32ed7effd965b55a742f877a70511"
+        },
+        {
+            "date": 1686657804153,
+            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-13-18-error.log",
+            "hash": "6bebaa70ba86c10130b3208a875fb278aed94268d100e7d7e00865701b94f9ba"
+        },
+        {
+            "date": 1686661277211,
+            "name": "E:\\uni2.0\\logs\\winston\\errors\\phu-2023-06-13-19-error.log",
+            "hash": "0280fee984746d771c0b37ae74e0680cb1927f59b26311b01bc7859cf22dff6d"
         }
     ],
     "hashType": "sha256"

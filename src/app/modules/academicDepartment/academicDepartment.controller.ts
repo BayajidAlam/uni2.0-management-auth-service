@@ -15,6 +15,7 @@ const createDepartment = catchAsync(async (req: Request, res: Response) => {
   const result = await AcademicDepartmentService.createDepartment(
     academicDepartmentData
   );
+
   sendResponse<IAcademicDepartment>(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -37,7 +38,7 @@ const getAllDepartment = catchAsync(async (req: Request, res: Response) => {
     statusCode: httpStatus.OK,
     success: true,
     message: 'Academic Department retrieved successfully',
-    data: result,
+    data: result.data,
   });
 });
 

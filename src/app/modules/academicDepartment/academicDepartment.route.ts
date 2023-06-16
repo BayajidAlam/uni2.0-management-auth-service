@@ -6,7 +6,7 @@ import { AcademicDepartmentController } from './academicDepartment.controller';
 const router = express.Router();
 
 router.post(
-  '/',
+  '/create-department',
   validateRequest(
     AcademicDepartmentValidation.createAcademicDepartmentZodSchema
   ),

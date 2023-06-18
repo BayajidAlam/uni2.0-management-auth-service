@@ -6,7 +6,7 @@ import httpStatus from 'http-status';
 import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
 import { academicDepartmentFilterableFields } from './academicDepartment.constants';
-import { IAcademicDepartment } from './academicDeparment.interface';
+import { IAcademicDepartment } from './academicDepartment.interface';
 import { AcademicDepartmentService } from './academicDepartment.service';
 
 // create a faculty

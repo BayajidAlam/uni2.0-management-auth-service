@@ -5,7 +5,7 @@ import { IPaginationOptions } from '../../../interfaces/pagination';
 import {
   IAcademicDepartment,
   IAcademicDepartmentFilterRequest,
-} from './academicDeparment.interface';
+} from './academicDepartment.interface';
 import { academicDepartmentSearchableFields } from './academicDepartment.constants';
 import { AcademicDepartment } from './academicDepartment.model';
 

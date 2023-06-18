@@ -2,7 +2,7 @@ import { Schema, model } from 'mongoose';
 import {
   AcademicDepartmentModel,
   IAcademicDepartment,
-} from './academicDeparment.interface';
+} from './academicDepartment.interface';
 
 const AcademicDepartmentSchema = new Schema<
   IAcademicDepartment,

@@ -4,7 +4,7 @@ import { IUser } from './user.interface';
 import config from '../../../config';
 
 import ApiError from '../../../errors/ApiError';
-import { generateFacultyId, generateStudentId } from './user.utils';
+import { generateStudentId } from './user.utils';
 import { AcademicSemester } from '../academicSemester/academicSemester.model';
 import mongoose from 'mongoose';
 import { Student } from '../student/student.model';
@@ -22,11 +22,13 @@ const createStudent = async (
   // set role
   user.role = 'student';
 
+  // get year and code
   const academicSemester = await AcademicSemester.findById(
     student.academicSemester
   );
 
   // transaction and rollback
+  let newUserAllData = null;
   const session = await mongoose.startSession();
   try {
     session.startTransaction();
@@ -36,7 +38,7 @@ const createStudent = async (
 
     const newStudent = await Student.create([student], { session });
 
-    if (!createStudent.length) {
+    if (!newStudent.length) {
       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create student!');
     }
 
@@ -47,6 +49,7 @@ const createStudent = async (
     if (!newUser.length) {
       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create !');
     }
+    newUserAllData = newUser[0];
 
     await session.commitTransaction();
     await session.endSession();
@@ -54,6 +57,25 @@ const createStudent = async (
     await session.abortTransaction();
     await session.endSession();
   }
+
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'student',
+      populate: [
+        {
+          path: 'academicSemester',
+        },
+        {
+          path: 'academicDepartment',
+        },
+        {
+          path: 'academicFaculty',
+        },
+      ],
+    });
+  }
+
+  return newUserAllData;
 };
 
 export const UserService = {

@@ -42,14 +42,14 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 
 export default app;
 
-const academicSemester = {
-  code: '01',
-  year: '2025',
-};
+// const academicSemester = {
+//   code: '01',
+//   year: '2025',
+// };
 
-const data = async () => {
-  const testId = await generateStudentId(academicSemester);
-  console.log(testId);
-};
+// const data = async () => {
+//   const testId = await generateStudentId(academicSemester);
+//   console.log(testId);
+// };
 
-data();
+// data();
